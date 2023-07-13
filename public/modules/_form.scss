@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------ *\
+	Form Donation
+\* ------------------------------------------------------------ */
+
+.form-donation {
+
+	.form-body,
+	.form-actions { display: inline-block; vertical-align: top; }
+	.form-actions { margin: 20px 0 0 0px; }
+	.form-actions .button { margin-bottom: 0; padding: 9px 30px; font-size: 13px; }
+
+	.form-label { margin-bottom: 8px; color: $color-dark; font-size: 13px; font-weight: 900; text-transform: uppercase; }
+
+	.fs-number { display: inline-block; vertical-align: middle; width: 134px; margin-right: 15px; }
+
+	.stripe-cards {
+		margin-top: 22px;
+	}
+
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		.form-body,
+		.form-actions { display: block; margin: 0; }
+	}
+}
+
+
+fieldset {
+	border: 1px solid #ccc;
+	padding: 20px;
+
+
+	legend {
+		background: #fff;
+		padding: 5px;
+		font-weight: bold;
+	}
+}

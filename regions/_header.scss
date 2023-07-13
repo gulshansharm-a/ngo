@@ -1,0 +1,44 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header { position: relative; z-index: 300; height: 100px;
+
+	.columns { position: static; }
+
+	.header-logo { float: left; margin: 32px 0 0 0;
+		img {
+			width: 30%;
+			height: auto;
+		}
+
+		.site-description {
+			color: $color-dark;
+			border-left: 1px solid #eaeaeb;
+			padding-left: 15px;
+			margin-left: 15px;
+			font-size: 16px;
+		}
+	}
+
+	.header-inner { float: right; margin-top: 31px; }
+
+	.header-actions { float: left; margin-left: 10px; }
+	.header-actions .button { margin: 0; min-width: 122px; }
+
+	/*  Tablet Portrait  */
+
+	@media (max-width: $breakpoint-tablet-portrait) {
+		.header-actions { margin-right: 50px; }
+	}
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		.header-actions { display: none; }
+	}
+}
+/* Fullscreen */
+.fsr-container { overflow: hidden; background-repeat: no-repeat; background-size: cover; }
+.fsr-image { position: absolute; }
+.fsr-hidden { display: none; }

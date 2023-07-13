@@ -1,0 +1,16 @@
+/* ------------------------------------------------------------ *\
+	Breadcrumbs
+\* ------------------------------------------------------------ */
+
+.breadcrumbs { display: inline-block; vertical-align: top; padding: 14px 20px; background: #fff; border-radius: 0; font-size: 12px; font-weight: bold; letter-spacing: 0.1em;
+
+	a { color: $color-orange; }
+	> *:before { content: '::'; margin: 0 6px; }
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		& { padding: 10px; }
+		> *:before { position: relative; top: -2px; margin: 0 2px; }
+	}
+}

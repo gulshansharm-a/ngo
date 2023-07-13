@@ -1,0 +1,78 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+
+	color: $color-grey;
+
+	.footer-section {
+		
+		.footer-section-title { color: #fff; font-weight: 900; font-size: 16px; text-transform: uppercase; letter-spacing: 0.05em; }
+		.footer-section-title:after { content: ''; display: block; width: 46px; height: 1px; margin: 22px 0 40px; background: $color-orange; }
+
+		.footer-section-body { overflow: hidden; }
+		.footer-section-body > p { margin-bottom: 25px; letter-spacing: 0.025em; }
+	}
+
+	.footer-body { padding: 85px 0; background: #27262c url(assets/images/footer-bg.png) no-repeat center 0; }
+
+	.footer-contacts { letter-spacing: 0.025em; 
+
+		span { color: #fff; }
+		p { margin: 0 0 12px; }
+		a { color: inherit; }
+		a:hover { color: #fff; }
+		.fa { min-width: 14px; margin-right: 7px;  }
+	}
+
+	.footer-bar { padding: 15px 0; background: #222126; }
+
+	.footer-credits { float: left; letter-spacing: 0.025em; 
+		
+		p { margin: 0; line-height: 2.2; }
+		a { color: #fff; }
+		a:hover { opacity: .7; }
+	}
+
+	.footer-socials { float: right; 
+
+		ul { margin: 0; list-style: none outside none; overflow: hidden; }
+		li { float: left; }
+		li + li { margin-left: 24px; }
+		a { display: block; padding: 0 3px; color: inherit; font-size: 18px; }
+		a {
+			-webkit-transition: color .2s ease-out; 
+			     -o-transition: color .2s ease-out; 
+			        transition: color .2s ease-out; 
+		}
+		a:hover { color: #fff; }
+	}
+
+	/*  Tablet Portrait  */
+	
+	@media (max-width: $breakpoint-tablet-portrait) {
+		.footer-section { margin-bottom: 30px;
+
+			.footer-section-title:after { margin: 10px 0; }
+
+			.footer-section-body > p { margin-bottom: 10px; }
+		}
+
+		.footer-body { padding: 40px 0; }
+	}
+
+	/*  Mobile  */
+	
+	@media (max-width: $breakpoint-mobile) {
+		.footer-credits,
+		.footer-socials { float: none; text-align: center; 
+			
+			ul { display: inline-block; vertical-align: top; }
+		}
+		.footer-credits p { margin-bottom: 10px; line-height: 1.3; }
+
+		.footer-body { padding-bottom: 0; }
+	}
+
+}

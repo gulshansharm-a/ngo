@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials {
+
+	span { display: block; margin-bottom: 5px; color: $color-dark; font-weight: bold; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; }
+	ul { margin: 0; list-style: none outside none; font-size: 0; }
+	li { display: inline-block; vertical-align: top; font-size: 14px; }
+	li + li { margin-left: 6px; }
+	a { display: block; color: #fff; line-height: 27px; width: 41px; text-align: center; border: 2px solid #000; }
+	a {
+		-webkit-transition: all .2s ease-out;
+		     -o-transition: all .2s ease-out;
+		        transition: all .2s ease-out;
+	}
+	a:hover { background: #fff; }
+	.link-facebook a { background: #3a559f; border-color: #3a559f; }
+	.link-facebook a:hover { background: #fff; color: #3a559f; }
+	.link-twitter a { background: #1abdf3; border-color: #1abdf3; }
+	.link-twitter a:hover { background: #fff; color: #1abdf3; }
+	.link-googleplus a { background: #fa501c; border-color: #fa501c; }
+	.link-googleplus a:hover { background: #fff; color: #fa501c; }
+	.link-linkedin a { background: #3a7d9f; border-color: #3a7d9f; }
+	.link-linkedin a:hover { background: #fff; color: #3a7d9f; }
+}

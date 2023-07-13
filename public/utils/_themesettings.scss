@@ -1,0 +1,48 @@
+//* ==========================================================================
+//	Theme Settings
+//========================================================================== */
+
+$color-orange: #fa6f1c;
+$color-dark: #27262c;
+$color-grey: #75737f;
+
+
+$breakpoint-small-desktop: 1199px;
+$breakpoint-tablet-portrait: 1023px;
+$breakpoint-mobile: 767px;
+
+
+html,
+body {
+  font-size: 1rem;
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+body {
+  background: #fff;
+  color: #75737f;
+  cursor: auto;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+color: #27262c;
+font-family: "Lato", sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 1.4;
+margin-bottom: 0.5rem;
+margin-top: 0.2rem;
+text-rendering: optimizeLegibility;
+}

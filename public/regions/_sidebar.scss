@@ -1,0 +1,14 @@
+/* ------------------------------------------------------------ *\
+	Sidebar
+\* ------------------------------------------------------------ */
+
+.sidebar { padding: 67px 0;
+
+	&:before { content: ''; position: absolute; left: -50px; top: 0; bottom: 0; width: 1px; background: #e8e6e7; }
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		& { padding: 0 0 35px; }
+	}
+}

@@ -1,0 +1,73 @@
+/* ------------------------------------------------------------ *\
+	Event
+\* ------------------------------------------------------------ */
+.events { list-style: none outside none; margin: 0 -15px;
+
+	li { padding: 0 15px; }
+}
+
+.event { padding-bottom: 10px; margin-bottom: 41px;
+
+	.event-image { margin-bottom: 35px; }
+	.event-image img { width: 100%; }
+
+	.event-title { margin-bottom: 18px; font-size: 14px; text-transform: uppercase; font-weight: 900; letter-spacing: 0.05em; line-height: 1.7; }
+	.event-title a { color: $color-dark; }
+	.event-title a:hover { color: $color-orange; }
+
+	.event-meta { margin-bottom: 28px; font-size: 14px; color: #52505b; letter-spacing: 0.05em; }
+	.event-meta .fa { margin-right: 3px; }
+	.event-meta span { display: inline-block; vertical-align: top; padding-right: 25px; white-space: nowrap; }
+
+	.event-entry { margin-bottom: 32px; letter-spacing: 0.025em; }
+	.event-entry p { margin-bottom: 0; }
+
+	.event-actions .button { display: inline-block; vertical-align: middle; padding: 9px 18px; }
+	.event-actions .button-facebook { padding: 7px 15px 8px; margin-left: 4px; }
+	.event-actions .button-facebook .fa { margin: 0; }
+}
+
+/* ------------------------------------------------------------ *\
+	Event Alt
+\* ------------------------------------------------------------ */
+
+.event-alt { padding-bottom: 10px;
+
+	.event-image { margin-bottom: 27px; }
+	.event-image img { width: 100%; }
+
+	.event-title { margin-bottom: 14px; font-size: 16px; text-transform: uppercase; font-weight: bold; letter-spacing: 0.05em; }
+	.event-title a { color: $color-dark; }
+	.event-title a:hover { color: $color-orange; }
+
+	.event-meta { margin-bottom: 24px; font-size: 14px; color: #52505b; letter-spacing: 0.05em; }
+	.event-meta .fa { margin-right: 3px; }
+	.event-meta span { display: inline-block; vertical-align: top; padding-right: 25px; white-space: nowrap; }
+
+	.event-entry { letter-spacing: 0.025em; }
+	.event-entry p { margin-bottom: 0; }
+}
+
+/* ------------------------------------------------------------ *\
+	Event Small
+\* ------------------------------------------------------------ */
+
+.event-small { padding-bottom: 12px; border-bottom: 1px solid #dcdcdc;
+
+	.event-image { position: relative; margin-bottom: 21px; }
+	.event-image img { width: 100%; }
+
+	.event-date { position: absolute; right: 0; bottom: 0; width: 52px; font-size: 12px; font-weight: bold; text-transform: uppercase; color: #fff; text-align: center; }
+	.event-date small { display: block; padding: 2px 0 1px; background: $color-dark; font-size: 100%; }
+	.event-date span { display: block; padding: 3px 0; background: $color-orange; }
+
+	.event-content { margin-bottom: 31px; }
+	.event-content h4 { margin-bottom: 16px; font-size: 13px; text-transform: uppercase; font-weight: 900; letter-spacing: 0.05em; line-height: 1.9; }
+	.event-content a { color: $color-dark; }
+	.event-content a:hover { color: $color-orange; }
+	.event-content p { letter-spacing: 0.025em; }
+
+	.event-actions .button { padding: 6px 16px; letter-spacing: 0.05em; font-size: 12px; }
+	.event-actions .button-facebook { margin-left: 12px; padding: 6px 14px; }
+	.event-actions .button-facebook .fa { margin: 0; font-size: 14px; }
+}

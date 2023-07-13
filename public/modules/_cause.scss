@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------ *\
+	Cause
+\* ------------------------------------------------------------ */
+
+.cause { background: #f6f6f6;
+
+	& + .cause { margin-top: 40px; }
+
+	.cause-image { position: relative;
+
+		img { width: 100%; }
+	}
+
+	.cause-tag { position: absolute; right: 17px; top: 16px; padding: 4px 13px; background: #fff; text-transform: uppercase; font-size: 12px; letter-spacing: 0.025em; font-weight: bold; color: $color-dark; }
+
+	.cause-body { padding: 30px 30px 28px; }
+	.cause-head { margin-bottom: 5px; overflow: hidden; }
+	.cause-head span { float: left; margin-top: 3px; padding: 2px 8px; background: $color-dark; color: #fff; font-size: 11px; font-weight: bold; letter-spacing: 0.05em; }
+	.cause-title { float: left; margin-right: 12px; font-weight: 900; font-size: 16px; text-transform: uppercase; letter-spacing: 0.05em; }
+	.cause-entry { margin-bottom: 33px; }
+	.cause-entry p { letter-spacing: 0.05em; }
+
+	.cause-foot { padding: 23px 0; color: $color-dark; overflow: hidden; font-size: 14px;
+
+		.fa { display: inline-block; vertical-align: middle; font-size: 17px; margin-right: 3px; }
+		.cause-foot-content { float: left; }
+		.cause-foot-content span { padding-right: 40px; }
+		.cause-foot-aside { float: right; letter-spacing: 0.1em; }
+	}
+
+	.cause-actions .button { margin-bottom: 0; padding: 9px 30px; font-size: 13px; }
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+
+		& + .cause { margin-top: 20px; }
+
+		.cause-body { padding: 15px; }
+
+		.cause-foot {
+			.cause-foot-content { float: none; }
+			.cause-foot-aside { float: none; margin-top: 15px; }
+		}
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Cause Single
+\* ------------------------------------------------------------ */
+
+.cause-single { margin-top: 11px;
+
+	.cause-body { padding: 56px 30px 8px; }
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		.cause-body { padding: 55px 15px 10px; }
+	}
+}

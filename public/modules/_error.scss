@@ -1,0 +1,10 @@
+/* ------------------------------------------------------------ *\
+	404 Error Page
+\* ------------------------------------------------------------ */
+
+.error-title { font-size: 15rem;
+	@media (max-width: $breakpoint-mobile) {
+		font-size: 10rem
+	}
+}
+.error-subtitle { margin-bottom: 40px; }

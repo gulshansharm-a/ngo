@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------ *\
+	Tabs
+\* ------------------------------------------------------------ */
+
+.tabs-wrapper { background: #fff;
+
+	.tabs { margin: 0; list-style: none outside none; border-left: 0px; border-bottom: 1px solid #ececec;
+
+		.tabs-title { float: left; font-weight: 900; text-transform: uppercase; letter-spacing: 0.05em; line-height: 52px; border-left: 1px solid #ececec; margin: 0;
+
+			a { display: block; padding: 15px 20px; color: $color-dark; font-size: 13px; outline: none; background: #fff; }
+			&.is-active a { margin-bottom: -1px; border-bottom: 1px solid #fff; color: #000;}
+			.fas, .far, .fab { font-size: 16px; color: $color-orange; margin-right: 7px;}
+
+		}
+	}
+
+	.tabs-content {
+		.content { padding: 19px 30px 35px; border-width: 0 1px 1px; border-style: solid; border-color: #ececec; }
+	}
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		.tabs {
+			.tab-title + .tab-title { border-left: 0; border-top: 1px solid #ececec; }
+			.tab-title { float: none; line-height: 40px;
+
+				a { padding: 0 15px; }
+				&.active a { background: #fafafa; }
+			}
+		}
+
+		.tabs-content {
+			.content { padding: 15px; }
+		}
+	}
+}

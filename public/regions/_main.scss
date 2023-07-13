@@ -1,0 +1,25 @@
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+.main {
+	.main-head { position: relative; height: 210px;  background: #dfd5cc;
+
+		.main-head-image { position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+		.main-head-content { position: relative; z-index: 10; padding-top: 60px; }
+
+		.main-title { margin-bottom: 15px; font-size: 24px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.1em;
+
+			&.main-title-alt { color: #fff; }
+		}
+	}
+
+	/*  Mobile  */
+
+	@media (max-width: $breakpoint-mobile) {
+		.main-head { height: 160px;
+			.main-head-content { padding-top: 20px; }
+			.main-title { font-size: 18px; }
+		}
+	}
+}
