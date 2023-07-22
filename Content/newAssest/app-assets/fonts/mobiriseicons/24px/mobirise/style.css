@@ -283,6 +283,18 @@
 .mbri-opened-folder:before {
   content: "\e955";
 }
+.hosp-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.arun{
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
+
 .mbri-pages:before {
   content: "\e956";
 }

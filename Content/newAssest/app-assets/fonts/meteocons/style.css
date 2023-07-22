@@ -167,3 +167,14 @@
 .me-Fahrenheit:before {
   content: "\e92e";
 }
+.hosp-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+.arun{
+  display: flex;
+  align-items: center;
+  margin-right: 20px; 
+}
